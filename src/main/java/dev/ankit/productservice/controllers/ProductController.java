@@ -1,11 +1,11 @@
-package dev.ankit.productservice.controllers;
+package dev.navneet.productservice.controllers;
 
-import dev.ankit.productservice.dtos.CreateProductRequestDto;
-import dev.ankit.productservice.dtos.ErrorDto;
-import dev.ankit.productservice.dtos.FakeStoreProductDto;
-import dev.ankit.productservice.models.Product;
-import dev.ankit.productservice.services.FakeStoreProductService;
-import dev.ankit.productservice.services.ProductService;
+import dev.navneet.productservice.dtos.CreateProductRequestDto;
+import dev.navneet.productservice.dtos.ErrorDto;
+import dev.navneet.productservice.dtos.FakeStoreProductDto;
+import dev.navneet.productservice.models.Product;
+import dev.navneet.productservice.services.FakeStoreProductService;
+import dev.navneet.productservice.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatusCode;
